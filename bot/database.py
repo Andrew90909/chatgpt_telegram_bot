@@ -42,6 +42,7 @@ class Database:
 
             "last_interaction": datetime.now(),
             "first_seen": datetime.now(),
+            "last_payment": datetime.now(),
 
             "current_dialog_id": None,
             "current_chat_mode": "assistant",
@@ -50,6 +51,7 @@ class Database:
             "n_used_tokens": {},
 
             "n_generated_images": 0,
+            "n_generated_answers_today": 0,
             "n_transcribed_seconds": 0.0  # voice message transcription
         }
 
